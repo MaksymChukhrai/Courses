@@ -1,0 +1,32 @@
+/*
+0       0       0       1
+0       0       1       0
+0       1       0       0
+style   id      class   element
+*/
+h1{
+    color: crimson;
+    font-weight: normal;
+}
+.my_name{
+    color:chocolate;
+    text-align:center;
+    background: -moz-repeating-linear-gradient(45);
+}
+#my_first_name{
+    color: darkorange;
+}
+#my_last_name{
+    color: rgb(104, 171, 38);
+}
+.my_joke{
+    color: rgb(143, 217, 24);
+    text-align: center;
+    background: chocolate;
+    border: 40px solid cornflowerblue
+}
+#my_photo{
+background-color: blue;
+background-size:calc(500px 500px)
+
+}
