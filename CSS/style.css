@@ -1,0 +1,97 @@
+/*
+0       0       0       1
+0       0       1       0
+0       1       0       0
+style   id      class   element
+*/
+@font-face {
+    font-family:'Calibri';
+    src: url('../Fonts.css/Calibri/Calibri Bold.ttf');
+
+    font-weight: 100;
+} 
+@font-face {
+    font-family:"Calibri" ;
+    src: url('../Fonts.css/Calibri/Calibri Bold Italic.ttf');
+    
+    font-weight: 400;
+
+}
+h1,h2,h3 {
+     font-family:"Calibri" ;
+     font-weight: 100;
+}
+body {
+    background-color:bisque;
+    margin: 15px;
+    font-size: 16px; /* шрифт всего сайта; "xx"rem умножаем на базовый; */
+}
+
+h1{
+    color: crimson;
+    font-weight:700;
+
+}
+.my_name{
+
+    color:rgb(141, 210, 30);
+    text-align:center;
+    background-color: chocolate;
+    background-position: center;
+
+}
+#my_first_name{
+    color: rgb(19, 50, 135);
+}
+#my_last_name{
+    color: rgb(162, 171, 38);
+}
+.my_joke{
+    font-size: 1.8rem;
+    color: rgb(143, 217, 24);
+    text-align: center;
+    background: chocolate;
+    border: 10px solid cornflowerblue
+}
+#my_photo{
+    display: flex;
+    justify-content: space-around; 
+    background-color: rgb(122, 143, 189);
+    background-size:calc(500px 500px)
+}
+#my_edu{
+    color: aliceblue;
+    background-color:seagreen;
+    font-family: "Calibri";
+   font-weight: 800;
+ }
+#my_experience{
+    color: aliceblue;
+    background-color:seagreen;
+    font-family: "Calibri";
+   font-weight: 800;
+}
+#my_ican{
+    color: aliceblue;
+    background-color:seagreen;
+    font-family: "Calibri";
+   font-weight: 800;
+}
+#personal_qualities{
+    color: aliceblue;
+    background-color:seagreen;
+    font-family: "Calibri";
+   font-weight: 800;
+}
+#achievements{
+    color: aliceblue;
+    background-color:seagreen;
+    font-family: "Calibri";
+   font-weight: 800;
+}
+#hobby{
+    color: aliceblue;
+    background-color:seagreen;  
+    font-family: "Calibri";
+   font-weight: 800;
+}
